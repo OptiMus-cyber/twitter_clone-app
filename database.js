@@ -15,7 +15,7 @@ class Database{
     }
     
     connect(){
-        mongoose.connect('mongodb+srv://Optimus:8NSaO8zqs5C6dzc9@twitterclonecluster.w36k8.mongodb.net/?retryWrites=true&w=majority')
+        mongoose.connect('mongodb+srv://rautelaprakash543:pmjfhDqIfuPzyy2h@twittercluster.3hf3cjs.mongodb.net/?retryWrites=true&w=majority')
         .then(()=>{
             console.log("Database connection is successful");
         })
